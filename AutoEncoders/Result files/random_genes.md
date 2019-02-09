@@ -1,0 +1,438 @@
+# rat vitro -> human vitro:
+## R1
+### input (rat) genes:
+```
+Cnih4
+Osbp
+Ptk2b
+Aptr
+Tgfa
+Xrn2
+MAST1
+Top1mt
+LOC100362738 /// LOC100364062 /// Pkm
+Angpt1
+Nfe2
+Zfp398
+Cep250
+Slc22a13
+Ccdc78
+Casz1
+Ticam1
+Scai
+Tsc1
+Rbm19
+F13a1
+LOC100909630 /// RT1-DMb
+Bbox1
+Etv1
+St8sia1
+Adamts10
+Prpf39
+Dmtf1
+LOC100360908 /// Pde4c
+LOC688415
+Cd163
+LOC100912012
+Cacna1a
+LOC100909637
+Stx11
+Cyp4f17 /// Cyp4f5
+Dnaaf3
+Ndufa10
+Arl14ep
+Zfand2b
+Phf12
+Six4
+Esf1
+Serpinb6
+Dxo
+Pir
+Tnfrsf11b
+Cnot11
+Dhx40
+Klhl18
+```
+
+### output (human) genes:
+```
+LOC102724991 /// LOC102725016 /// PPP2R3B
+RBMX2
+PDZD7
+GAREM2
+PATL1
+CDK1
+SLC35G3 /// SLC35G4 /// SLC35G5
+LOC286059
+RUBCN
+LINC00315
+LINC01165
+LOC100506022
+TMEM205
+CACUL1
+LINC00886
+RHOU
+KIAA0586
+LINC01561
+GPT2
+TMEM147-AS1
+PLEKHO2
+LINC01599
+OR5P2
+VDAC2
+LOC100129380
+EIF2B4
+LINC01122
+IL36G
+MAT2B
+TM2D1
+RPL36
+LINC00535
+SMPD1
+HSP90AB1
+LOC101928524 /// PRPF18
+LINC00494
+MRPL2
+CHML
+N4BP3
+MARVELD1
+LOC101927526
+PRAMEF12
+CKS2
+MAGEA8
+SPTY2D1-AS1
+PLSCR2
+ACSM5
+GOLGA7B
+TIA1
+TUBB4B
+```
+
+## R2
+### input (rat) genes:
+```
+Casq1
+Cthrc1
+Ccdc85b
+Ubl3
+Rbms1
+Uqcc2
+Tmem185b
+RGD1305014
+Tbce
+Meis1
+Parvg
+Peli2
+Eng
+Dhrs9
+Lmo3
+Tvp23b
+LOC103694863 /// Rasl10b
+Tagap
+Arhgef12
+Churc1
+Pex16
+Fam154a
+Zfp365
+LOC102555788
+Stam2
+Lmln
+Arid3b
+Rpa3
+Psat1
+Aplp1
+Rangap1
+Tbc1d2
+Fam131a /// LOC100912498
+Prr12
+Ska1
+Dmrt1
+Lhx4
+Gorab
+Map7d2
+Prkar2b
+Gbas
+Avp
+LOC100910669 /// Pilra
+Fam101b
+Taf6l /// Tmem179b
+Bnip3
+Mid2
+Irf3
+Tmed8
+Fam120a /// LOC683420
+```
+
+### output (human) genes:
+```
+PAICS
+LOC100653061 /// SMA4
+FAM219A
+CBX5
+FAM149B1
+KCTD14 /// NDUFC2-KCTD14
+CPSF3
+LOC642426
+PNPLA3
+EXOSC1
+CLMP
+ITLN1
+PRSS16
+STAU2
+DNA2
+NKPD1
+WDR18
+DDC
+UBE2H
+SLC35E2
+TICAM2 /// TMED7-TICAM2
+ATP1B4
+LOC100996325
+LINC00924
+TLR9
+RDH13
+NT5C2
+SLC37A3
+MRGPRX3
+LOC93444
+HPS5
+TUSC2
+CDC42BPA
+CST1
+CCDC51
+ZNF709
+SLC25A43
+MIR3681HG
+C9orf84
+AZIN1
+FAM131A
+LOC101929726
+CHMP5
+CASP4
+PRRX2-AS1
+LOC100996724 /// PDE4DIP
+NFKB2
+EID3
+FAM65A
+INO80B
+```
+
+# Rat vitro -> rat vivo
+
+## R1
+### Input (vitro) genes: (same as Rat vitro -> human vitro R1)
+```
+Cnih4
+Osbp
+Ptk2b
+Aptr
+Tgfa
+Xrn2
+MAST1
+Top1mt
+LOC100362738 /// LOC100364062 /// Pkm
+Angpt1
+Nfe2
+Zfp398
+Cep250
+Slc22a13
+Ccdc78
+Casz1
+Ticam1
+Scai
+Tsc1
+Rbm19
+F13a1
+LOC100909630 /// RT1-DMb
+Bbox1
+Etv1
+St8sia1
+Adamts10
+Prpf39
+Dmtf1
+LOC100360908 /// Pde4c
+LOC688415
+Cd163
+LOC100912012
+Cacna1a
+LOC100909637
+Stx11
+Cyp4f17 /// Cyp4f5
+Dnaaf3
+Ndufa10
+Arl14ep
+Zfand2b
+Phf12
+Six4
+Esf1
+Serpinb6
+Dxo
+Pir
+Tnfrsf11b
+Cnot11
+Dhx40
+Klhl18
+```
+
+### Output (vivo) genes
+```
+Gja6
+Zfp518b
+Ddx55
+Cd151 /// LOC100911730
+RGD1303003
+Psd3
+Bace2
+Rbpj
+Ins1
+Ankrd40
+Elovl6 /// LOC102549542
+Ece1
+Taok2
+Tspan18
+Sfswap
+Pacrgl
+Ska2
+Egfl8
+L3mbtl2
+Pnck
+Bnip3
+Metap1d
+Ahsa1
+Tbc1d15
+Mga
+Zfyve9
+Ciz1
+Vps9d1
+Col10a1
+Epha4
+Enpp5
+LOC100909795 /// LOC100912151
+Cthrc1
+Cdk2ap1
+Prrt1
+Git2
+Gon4l
+Sgk2
+Ghrhr
+Degs1
+Lgals1
+Slc39a6
+Oprk1
+Nol3
+Ddb2
+Trmt2a
+Gbx2
+LOC680045
+Lcp1
+Adgrl3
+```
+
+## R2
+### Input (vitro) genes: (same as rat vitro -> human vitro R1)
+```
+Casq1
+Cthrc1
+Ccdc85b
+Ubl3
+Rbms1
+Uqcc2
+Tmem185b
+RGD1305014
+Tbce
+Meis1
+Parvg
+Peli2
+Eng
+Dhrs9
+Lmo3
+Tvp23b
+LOC103694863 /// Rasl10b
+Tagap
+Arhgef12
+Churc1
+Pex16
+Fam154a
+Zfp365
+LOC102555788
+Stam2
+Lmln
+Arid3b
+Rpa3
+Psat1
+Aplp1
+Rangap1
+Tbc1d2
+Fam131a /// LOC100912498
+Prr12
+Ska1
+Dmrt1
+Lhx4
+Gorab
+Map7d2
+Prkar2b
+Gbas
+Avp
+LOC100910669 /// Pilra
+Fam101b
+Taf6l /// Tmem179b
+Bnip3
+Mid2
+Irf3
+Tmed8
+Fam120a /// LOC683420
+```
+
+### output (vivo) genes:
+```
+Akap3
+Heatr3
+Rgs6
+Mical1
+Ndufa6
+Spryd3
+LOC100912002
+Mocos
+Tifab
+Cacng6
+Cct8
+Nars
+Iqgap1
+Atg10
+Ezh2
+Fam43a /// LOC100909474
+Scgb2a2
+LOC100910864 /// RGD1565119 /// Slc25a52
+Nmi
+Cpt2
+Tyms
+Nat14
+Eif4b
+LOC100910506
+IgG-2a /// Igha
+Vom2r31
+Stac2
+Anp32e
+Mark3
+Myt1
+Appl2
+Syt10
+LOC100910885 /// LOC100911562 /// LOC103690359 /// RGD1309808
+LOC689589
+Ccdc191
+Mrpl44
+Lmln
+Alas2
+Spns1
+FAM120C
+Grxcr1 /// LOC100910415
+Rwdd4
+Copz1
+Ryr1
+Eda
+Pdlim5
+Styx
+Fchsd1
+Sgk1
+LOC102554026
+```
