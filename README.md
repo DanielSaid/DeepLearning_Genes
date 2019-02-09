@@ -7,13 +7,7 @@ Existing sets (i.e. random, nested or orthologs):
 -	Scroll to bottom of PredictEncoding (“main”)
 -	Change output domain as desired
 -	Change parameters of loops as desired
--	Change method as desired:
-  o	 untrained_ae
-  o	autoencoder (-> pre-trained AE)
-  o	rf 
-  o	knn
-  o	elastic
-  o	cnn
+-	Change method as desired: untrained_ae, autoencoder (-> pre-trained AE), rf, knn, elastic or cnn
 -	In order to run things in parallel, create separate job scripts AND separate copies of PredictEncoding (at least I never tried editing a running file)
 
 Gene list provided (i.e. NAFLD, Steatosis etc.):
