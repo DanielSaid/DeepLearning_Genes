@@ -18,7 +18,7 @@ Gene list provided (i.e. NAFLD, Steatosis etc.):
 
 Creating new gene sets:
 -	Call file RandomGenes.py from job script
--	Change output domain as desired
+-	Change parameters in RandomGenes.py as desired
 
 Other remarks:
 -	In order to investigate a data file, use OpenData.sh and OpenData.py
