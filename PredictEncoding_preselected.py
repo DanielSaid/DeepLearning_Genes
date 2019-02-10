@@ -525,9 +525,6 @@ def main():
     compound_list = CompoundLists.UNGENERAL_45
     x_type = "rat_vitro"
     y_type = "human_vitro"  # Dan: change domain here as desired!
-
-    X, _, _, gene_list_x, _ = pickle.load(open(file1, "rb"))
-    _, Y, data_compounds, _, gene_list_y =  pickle.load(open(file2, "rb"))
     
     X, Y, data_compounds, gene_list_x, gene_list_y = read_data(compound_list.copy(), x_type=x_type, y_type=y_type,
                                                                 gene_list=gene_list, dataset="big")
