@@ -29,7 +29,9 @@ from sklearn.neighbors import KNeighborsRegressor
 
 def cnn_single_convo_data_preprocessing(x_train, x_valid, y_train, y_valid, norms_X, norms_Y):
     """A CNN using one convolutional and one Dense layer, with data preprocessing like in the Autoencoders."""
-    trg_timepoints = 4
+    trg_timepoints = 3
+    if x_train.shape[1]!=y_train.shape[1]: # Dan: I added this statement
+        trg_timepoints = 4
     padded = False
     genes = x_train.shape[1] // 3
     MIN_GENES = 50
